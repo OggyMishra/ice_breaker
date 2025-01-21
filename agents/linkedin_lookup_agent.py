@@ -28,6 +28,7 @@ def lookup(name: str) -> str:
     react_prompt = hub.pull("hwchase17/react")
 
     """
+    https://smith.langchain.com/hub/hwchase17/react
     react_prompt: This react prompt is defined as
     ============================================
     Answer the following questions as best you can. You have access to the following tools:
